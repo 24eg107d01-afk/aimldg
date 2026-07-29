@@ -14,18 +14,18 @@ public class Student {
     long id;
     private String name;
     private String email;
-    private String ip;
+    private String ipadd;
 
     public String getName() {
         return this.name;
     }
 
     public String getEmail() {
-        return this.name;
+        return this.email;
     }
 
     public String getIp() {
-        return this.name;
+        return ip;
     }
 
     public void setName(String name) {
